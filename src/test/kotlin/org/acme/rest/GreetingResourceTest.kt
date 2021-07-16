@@ -14,7 +14,7 @@ class GreetingResourceTest {
           .`when`().get("/greeting")
           .then()
              .statusCode(200)
-             .body(`is`("Hello RESTEasy"))
+             .body(`is`("Hello oberning"))
     }
 
 }
